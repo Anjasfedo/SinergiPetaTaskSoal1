@@ -1,0 +1,37 @@
+body{
+    background-color: blue;
+    display: grid;
+    place-items: center;
+}
+
+.main{
+    background-color: orange;
+    width: 40vw;
+    border: 5px solid black;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+.isi{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+}
+
+.gambar{
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+img{
+    width: 90%;
+    height: 100px;
+}
+
+a{
+    text-decoration: none;
+}
